@@ -34,3 +34,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
+enum NetworkEnvironment {
+    case qa
+    case production
+    case staging
+}
